@@ -1,0 +1,103 @@
+// Colors
+navBkgColor = #444
+navHighlightColor = #ccc
+bodyPadding = 20px
+logoHeight = 37px;
+
+// Generic
+body
+    padding 0
+    margin 0
+
+h1, h2, h3, h4, h5, h6
+    color navBkgColor
+
+.heading-span
+    font-size 28px
+
+.heading-subtitle
+    font-size 20px
+
+.help-block
+    color #aaa
+    font-style italic
+    font-weight normal
+
+.error
+    color #c00
+    font-style italic
+    padding-bottom 15px
+
+.success
+    color #0a0
+    font-style italic
+    padding-bottom 15px
+
+// Navbar
+.navbar-default
+    background-color navBkgColor
+
+a.navbar-brand
+    padding-top 10px
+    padding-bottom 10px
+    line-height logoHeight
+    font-size 24px
+
+    .navbar-logo
+        height logoHeight
+        width auto
+
+.navbar.navbar-default a.navbar-brand.selected:hover
+    background-color #333
+
+.navbar-default .navbar-nav li a:hover
+    color navHighlightColor
+
+.navbar-default a.navbar-brand:hover
+    color white
+
+a.navbar-brand.selected, .navbar-default .navbar-nav li a.selected
+    background-color #333
+
+// Tags
+.tag
+    background-color navBkgColor
+    border-radius 5px
+    padding 5px
+    margin-right 5px
+    color white
+
+    &:hover
+        text-decoration none
+        background-color navHighlightColor
+        color white
+
+// News Items
+.news-item
+    border-top 1px solid #ccc
+
+    h2
+        margin-bottom 3px
+
+    .details
+        font-style italic
+
+    .body
+        padding-bottom bodyPadding
+        padding-top bodyPadding
+
+        h2
+            font-size 20px
+            font-weight bold
+
+// Jobs Pages
+.job-table
+    td, th
+        padding 5px 10px
+
+    th
+        background-color navHighlightColor
+        color white
+
+    tr:nth-child(odd)
+        background-color #eee

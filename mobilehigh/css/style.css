@@ -1,0 +1,181 @@
+body, html
+{
+    background-color: #ddd;
+    height: 100%;
+}
+
+.navbar, .navbar-inner, .navbar .navbar-inner a.brand, .navbar .navbar-inner a.brand:hover {
+    background-color: #40230f;
+}
+
+.imgbkg
+{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #b8b69b;
+    height: 400px;
+}
+
+.date-passed, .date-passed h1, .date-passed h2, .date-passed h3 {
+    opacity: 0.5;
+}
+
+.date-due, .date-due h1, .date-due h2, .date-due h3 {
+    color: #500;
+}
+
+.date-due a {
+    color: #922;
+}
+
+.date-due a:hover {
+    color: #c55;
+    text-decoration: none;
+}
+
+.shadow
+{
+    -webkit-box-shadow: 0px 5px 15px -1px #000; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          box-shadow: 0px 5px 15px -1px #000; /* Opera 10.5, IE9+, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.push_down
+{
+    margin-top: 20px;
+}
+
+.container.login-box, .container.register-box
+{
+    padding: 0px 30px;
+    background-color: #fff;
+}
+
+.container.login-box
+{
+    width: 300px;
+}
+
+.container.register-box
+{
+    width: 500px;
+}
+
+.container.content-box
+{
+    background-color: #fff;
+    padding: 0px 30px;
+    width: 1000px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+
+#banner
+{
+    display: block;
+    width: 2000px;
+    margin: auto;
+}
+
+.important-date
+{
+    font-weight: bold;
+    color: #aa0000;
+}
+
+#button-holder
+{
+    position: relative;
+    margin: auto;
+    width: 850px;
+    height: 100%;
+    margin: auto;
+}
+
+.big-button {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    background-color: #40230f;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.big-button:hover {
+    background-color: #513410;
+}
+
+#sign-button
+{
+    height: 80px;
+    width: 170px;
+    position: absolute;
+    top: 180px;
+}
+
+#find-team-button
+{
+    line-height: 30px;
+    height: 120px;
+    width: 200px;
+    position: absolute;
+    top: 270px;
+}
+
+legend
+{
+    color: #000;    
+}
+
+fieldset
+{
+    border: solid 1px #aaa;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.req-ast
+{
+    color: #f00;
+}
+
+.form-error
+{
+    color: #333;
+    background-color: #FCB1B1;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a
+{
+    color: #6496CC;
+}
+
+a:hover
+{
+    color: #78B4F5;
+    text-decoration: none;
+}
+
+ol li
+{
+    margin-bottom: 15px;
+}
+
+.accordion-group a
+{
+    font-weight: bold;
+    color: #000;
+}
+
+h1
+{
+    margin-top: 15px;    
+}
+
+hr {
+    border-bottom: 1px solid #ccc;
+}
